@@ -57,3 +57,10 @@ A multi-stage pipeline to reduce dimensionality and combat the "Curse of Dimensi
 ├── Evaluate_Model.py             # Performance metrics and visualization
 ├── plots/                        # Generated ROC, AUC, and Confusion Matrices
 └── README.md
+
+## 📂 Data Setup
+To maintain a lightweight repository, the full IMU dataset is not included. 
+To run the analysis:
+1. Create a folder named `data/` in the root directory.
+2. Place your `.csv` sensor files and annotation files inside.
+3. A small sample is provided in `data/sample/` for testing the pipeline flow.
